@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   
@@ -15,36 +13,10 @@
     margin: auto;
   }
   .header {
-    border-bottom: 1px solid #dedede;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
-  }
-  .header .nav-bar {
-    max-width: 1140px;
-    width: 100%;
-    margin: auto;
-  }
-  
-  .header .nav-bar ul {
-    padding: 0;
-    width: 100%;
-    list-style-type: none;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 0 20px;
     text-align: center;
-  }
-  
-  .header .nav-bar ul li {
-    display: inline-block;
-    padding: 10px 10px;
-  }
-  
-  .header .nav-bar ul li a {
-    text-decoration: none;
-    color: dimgray;
-  }
-  
+  }  
   .content-area {
     padding: 20px;
   }
@@ -64,7 +36,7 @@
   }
   
   .as-card {
-    border: 1px solid #c8e1ff;
+    border: 1px solid black;
     background: rgb(194, 185, 185);
   }
   
@@ -72,7 +44,7 @@
     float: right;
     min-width: 100px;
     text-align: center;
-    border: 1px solid #c8e1ff;
+    border: 1px solid black;
     margin-top: -1px;
     margin-right: -1px;
     background-color: #dedede;
